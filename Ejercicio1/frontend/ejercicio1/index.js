@@ -19,7 +19,7 @@ export async function ejercicio1(){
             return post.userId === usuario.id;
         })
 
-        report_final.push({
+        reporte.push({
             // Se guarda el nombre del usuario
             nombre_usuario:usuario.name,
             // y el total de post con .legnth
@@ -27,5 +27,7 @@ export async function ejercicio1(){
         });
     })
 
-    console.table(reporte_final);
+    console.table(reporte);
 }
+
+ejercicio1();

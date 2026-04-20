@@ -7,6 +7,7 @@ async function inicializar_proyecto() {
     // LLamar la api para probar
     const usuarios = await get('users');
     console.log("Usuarios cargados:",usuarios);
+    
 }
 
-inicializar_proyecto
+inicializar_proyecto();

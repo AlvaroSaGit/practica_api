@@ -9,4 +9,4 @@ async function inicializar_proyecto() {
     console.log("Usuarios cargados:",usuarios);
 }
 
-inicializar_proyecto
+inicializar_proyecto();
